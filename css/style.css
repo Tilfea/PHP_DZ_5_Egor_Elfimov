@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.other {
+    margin: 0 5%;
+}
+
+header {
+    background-color: #F9D9EB;
+    /* position: absolute; */
+    width: 100%;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 2%;
+}
+.nav ul {
+    display: flex;
+}
+.nav li {
+    padding-right: 15px;
+    display: flex;
+
+}
+.nav a{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    
+    text-align: right;
+    
+    color: #2B292D;
+    text-decoration: none;
+}
+
+.button {
+    width: 160px;
+    height: 48px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.button2 {
+    width: 160px;
+    height: 48px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+}
+
+.button a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+
+    /* identical to box height, or 72% */
+
+
+    color: #FFFFFF;
+}
+
+.button2 a {
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    /* identical to box height, or 72% */
+    
+    
+    color: #3040C4;
+    }
+
+.button_head div {
+    margin-right: 10px;
+}
+
+.text1{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 78px;
+    /* or 98% */
+
+    letter-spacing: -0.5px;
+
+    color: #2B292D;
+}
+
+.text2{
+    margin: 34px 0;
+    width: 456px;
+    height: 102px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+
+
+    color: #2B292D;
+}
+
+.block {
+    display: flex;
+    background-color: #F9D9EB;
+    width: 100%;
+    height: 600px;
+}
+
+.block1 {
+    position: relative;
+    left: 15%;
+}
+
+.button_head {
+    display: flex;
+}
+section {
+
+    padding: 2% 0;
+}
+
+.img_now {
+    width: 1073px;
+    height: 415px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.base {
+
+    background-color: #00a1c61f;
+    mix-blend-mode: normal;
+}
+
+.text3 {
+    text-align: center;
+}
+.text4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    /* identical to box height, or 155% */
+
+    text-align: center;
+
+    color: #2B292D;
+}
+
+.text5 {
+    padding-top: 24px;
+    padding-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #2B292D;
+}
+
+.text6 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+
+    text-align: center;
+
+    color: #2B292D;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    text-align: left;
+}
+.info .text4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    /* identical to box height, or 155% */
+    text-align: left;
+
+    color: #807F81;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.info .text5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    /* or 100% */
+    padding-top: 24px;
+    padding-bottom: 30px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2B292D;
+
+}
+
+.info .text6{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    text-align: left;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    color: #2B292D;
+}
+.cta {
+    width: 100%;
+    height: 441px;
+    background-color: #F4F5F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form {
+    display: flex;
+}
+.form input {
+    width: 385px;
+    height: 45px;
+    margin-right: 5px;
+}
+.info2 .text4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #2B292D;
+}
+
+.info2 .text5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+    text-align: left;
+
+    color: #2B292D;
+}
+.out {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: column}
+
+    .logo2 .text4 {
+        width: 360px;
+    height: 85px;
+        font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    text-align: left;
+    color: rgba(43, 41, 45, 0.6);
+    }
+    .dna {
+        display: flex;
+
+    }
+.app, .google {
+    padding-left: 5px;
+}
+
+.product div a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-decoration: none;
+
+    color: rgba(43, 41, 45, 0.6);
+}
+.company1 div a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.product a, 
+.company1 a  {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 127% */
+
+    text-decoration: none;
+    color: #2B292D;
+}
+
+.socials {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.Terms {
+    display: flex;
+    align-items: center;
+    padding-left: 270px;
+
+}
+.socials .Terms a {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    text-decoration: none;
+    padding-left: 10px;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+.Social {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.Social img{
+    padding-left: 15px;
+}
