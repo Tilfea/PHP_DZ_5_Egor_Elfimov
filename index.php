@@ -13,7 +13,7 @@ require_once './pagesData.php';
             <div class="button_head">
             <form class="form" action='./form.php' method='POST'>
             <button class="button"><a>Get Started</a></button>
-            <div class="button2"><a href="#">Learn More</a></div>
+            <div class="button2"><a href="#form">Learn More</a></div>
             </form>
             </div>
         </div>
@@ -59,7 +59,7 @@ require_once './pagesData.php';
 </section>
 
 <section>
-        <div class="cta">
+        <div id='form' class="cta">
             <div class="img4"><img src="./img/ouch3.png"></div>
             <div class="info2">
                 <div class="text4"><p>Start your free trial.</p></div>
